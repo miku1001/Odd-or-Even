@@ -3,7 +3,9 @@
 # extracted from the numbers.txt. The second text file will be named odd.txt that will contains all odd numbers extracted from 
 # the numbers.txt.
 
-# open integers.txt(read), odd(append), even(append)
+def odd_even():
+    # open integers.txt(read), odd(append), even(append)
+    with open("integers.txt") as input_file, open("odd_int.txt", "a") as odd_output, open("even_int.txt", "a") as even_output:
 # read integers.txt line by line
 # remove newline character and convert strings to integers
 # if even,
