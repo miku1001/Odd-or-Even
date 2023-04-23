@@ -6,8 +6,10 @@
 def odd_even():
     # open integers.txt(read), odd(append), even(append)
     with open("integers.txt") as input_file, open("odd_int.txt", "a") as odd_output, open("even_int.txt", "a") as even_output:
-# read integers.txt line by line
-# remove newline character and convert strings to integers
+        # read integers.txt line by line
+        for integers in input_file:
+            # remove newline character and convert strings to integers
+            input_num = int(integers)
 # if even,
 # write to even.txt
 # if odd,
