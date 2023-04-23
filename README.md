@@ -8,8 +8,9 @@
 - [Run](#run)
 - [How to run in IDE](#ide)
 - [Contact](#contact)
+- [Definition](#definition)
 
-### Definition
+### Definition <a name="definition"></a>
 * **Odd** - a whole number that is not divisible by 2, leaving a remainder of 1 when divided by 2. 
 * **Even** - a whole number that is divisible by 2, leaving no remainder when divided by 2.
 
