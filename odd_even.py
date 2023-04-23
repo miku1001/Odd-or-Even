@@ -14,6 +14,8 @@ def odd_even():
             if input_num % 2 == 0:
                 # write to even.txt
                 even_output.write(str(input_num) + "\n")
-# if odd,
-# write to odd.txt
+            # if odd,
+            else:
+                # write to odd.txt
+                odd_output.write(str(input_num) + "\n")
 # start
