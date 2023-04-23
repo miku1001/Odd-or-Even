@@ -18,4 +18,8 @@ def odd_even():
             else:
                 # write to odd.txt
                 odd_output.write(str(input_num) + "\n")
+        print("Odd and Even numbers are seperated successfully")
+        print(f"Odd numbers: {len(odd_output.readlines())}" )
+        print(f"Even numbers: {len(even_output.readlines())}")
 # start
+odd_even
