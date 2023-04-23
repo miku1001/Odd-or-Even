@@ -10,8 +10,10 @@ def odd_even():
         for integers in input_file:
             # remove newline character and convert strings to integers
             input_num = int(integers)
-# if even,
-# write to even.txt
+            # if even,
+            if input_num % 2 == 0:
+                # write to even.txt
+                even_output.write(str(input_num) + "\n")
 # if odd,
 # write to odd.txt
 # start
